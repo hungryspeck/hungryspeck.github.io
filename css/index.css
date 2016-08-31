@@ -1,4 +1,8 @@
 .title{
 font-family: Consolas;
 background: #7a1a1a;
+width: 70%;
+position: absolute;
+margin-left: 50%;
+margin-right: 50%;
 }
