@@ -1,2 +1,1 @@
 # nerdlingealm.github.io
-test
