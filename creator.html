@@ -5,17 +5,18 @@
 </head>
 <body>
   <script>
+    var image = ""
   function inputname(){
     document.getElementById("Name").innerHTML = prompt("Input a name")
   }
    function inputimage(){
-     document.getElementById("Image").innerHTML = prompt("Input an image URL")
+     image = prompt("Input an image URL")
    }
   </script>
   <button onclick="inputname()">Input name</button>
   <p class="titles"></p>
   <p id="Name"></p>
   <button onclick="inputimage()"></button>
-  <img id="Image">
+  <img src=image>
 </body>
 </html>
